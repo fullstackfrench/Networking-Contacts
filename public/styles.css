@@ -4,3 +4,24 @@ body{
 h3{
   margin-top: 40px;
 }
+
+span {
+  display: block;
+  
+}
+.count, .buttons, .delete {
+  display: inline;
+}
+
+
+li {
+  list-style: none;
+}
+
+li input, li button {
+  display: none;
+}
+
+.showInput {
+  display: block;
+}
