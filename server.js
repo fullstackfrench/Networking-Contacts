@@ -80,32 +80,6 @@ app.put('/coffeechats', (req, res) => {
   })
 })
 
-// const { ObjectId } = require('mongodb');
-
-// Route to update a contact in the database
-// app.put('/update-contact/:id', (req, res) => {
-//   const contactId = req.params.id;  // Get the contact ID from the URL parameter
-//   const updatedData = req.body;     // The updated data from the request body
-
-//   // Update the contact in the database
-//   db.collection('contacts')
-//     .updateOne({ _id: new ObjectId(contactId) }, {
-//       $set: {
-//         name: updatedData.name,
-//         email: updatedData.email,
-//         company: updatedData.company,
-//         role: updatedData.role,
-//         comments: updatedData.comments
-//       }
-//     })
-//     .then(result => {
-//       res.json({ message: 'Contact updated successfully!', result });
-//     })
-//     .catch(err => {
-//       console.error('Error updating contact:', err);
-//       res.status(500).json({ message: 'Error updating contact', error: err });
-//     });
-// });
 
 app.delete('/contacts', (req, res) => {
   console.log('Delete is working!')
