@@ -27,7 +27,7 @@ The **Networking Contacts Manager** is a tool designed for professionals to orga
 - **Persistent Data**:
   - Contacts and their details are stored in a MongoDB database.
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 ### Backend
 - **Node.js**: For server-side scripting.
