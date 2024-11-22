@@ -8,24 +8,18 @@ The **Networking Contacts Manager** is a tool designed for professionals to orga
 
 ## Features
 
-- **Add Contacts**:
-  - Include essential details like name, email, company, role, and comments.
+- **Add Contacts**: Include essential details like name, email, company, role, and comments.
   
-- **Edit and Update**:
-  - Modify any contact details directly in the interface.
+- **Edit and Update**: Modify any contact details directly in the interface.
 
-- **Interaction Tracking**:
-  - Log interactions like emailing and coffee chats with a simple button click.
+- **Interaction Tracking**: Log interactions like emailing and coffee chats with a simple button click.
  
 
-- **Delete Contacts**:
-  - Remove outdated or irrelevant contacts from the database.
+- **Delete Contacts**: Remove outdated or irrelevant contacts from the database.
 
-- **Dynamic UI**:
-  - Responsive and interactive interface with real-time updates using fetch API.
+- **Dynamic UI**: Responsive and interactive interface with real-time updates using fetch API.
 
-- **Persistent Data**:
-  - Contacts and their details are stored in a MongoDB database.
+- **Persistent Data**: Contacts and their details are stored in a MongoDB database.
 
 ## Technologies Used
 
